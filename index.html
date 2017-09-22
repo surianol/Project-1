@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title>Project 1</title>
+  <title>Free XBox</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="CSS/screen.css" />
@@ -30,13 +30,18 @@
 			<p><label> Phone Number: <input type="tel" name="phone_field" placeholder="(xxx) xxx - xxxx" required></label></p>
 			<p><label> Date of Birth: <input type="date" name="birthdate" required></label></p>
 			<p><label> Email Address: <input type="email" name="email_field" placeholder="email@example.com" required></label></p>
+			<p>
+				<label for="our_textarea"> Color preference? </label><br>
+				<textarea cols="15" rows="3" name="color_preference" placeholder="Type it here..." id="our_textarea"></textarea>
+			</p>
 			<p><input type="hidden" name="hidden_field" value="lsuriano"></p>
-			<p><input type="submit" value="Sign me up!"></p>
+			<script src=JavaScript.js type="text/javascript"></script>
+			<p><input type="submit" value="Sign me up!" onclick="return button();" onfocus="highlight(this)"></p>
 		</fieldset>
 	</form>
 	
 	<footer>
-			<p id="myemail">Created by: Leydi Suriano - <a href="mailto:lsuriano@hawk.iit.edu">lsuriano@hawk.iit.edu</a></p>
+			<p id="myemail">Created by: Leydi Suriano - <a href="mailto:lsuriano@hawk.iit.edu"> send email </a></p>
 			<p id="css">
 				<a href="http://jigsaw.w3.org/css-validator/check/referer">
 					<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
