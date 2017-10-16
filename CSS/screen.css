@@ -218,7 +218,7 @@ textarea {
 
 /* my css */
 html {
-	font-family: "Times New Roman", Times, serif !important;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif !important;
 	vertical-align: baseline;	
 	width: 100%;
 	height: auto;
