@@ -221,7 +221,6 @@ html {
 	font-family: "Times New Roman", Times, Baskerville, Georgia, serif !important;
 	vertical-align: baseline;	
 	width: 100%;
-	line-height: 1rem;
 	max-width: 1920px; /* MAX SIZE */
 	background-size: 100% 100%;
 }
@@ -230,12 +229,15 @@ html {
 	html {
 		width: auto;
 		float: none;
+		font-size: 1.5em;
+		line-height: 2em;
 	}
 }
 
 @media only screen and (min-width: 40em) {
   html {
-    font-size: 1.424em;
+    font-size: 1.4em;
+	line-height: 1em;
   }
 }
 
