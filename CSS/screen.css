@@ -221,16 +221,22 @@ html {
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif !important;
 	vertical-align: baseline;	
 	width: 100%;
-	height: auto;
+	line-height: 1rem;
 	max-width: 1920px; /* MAX SIZE */
 	background-size: 100% 100%;
 }
 
 @media only screen and (max-width: 400px) {
-	body {
+	html {
 		width: auto;
 		float: none;
 	}
+}
+
+@media only screen and (min-width: 40em) {
+  html {
+    font-size: 1.424em;
+  }
 }
 
 img {
@@ -265,8 +271,8 @@ p {
 }
 
 footer {
-	margin: 15px;
-	border: 15px;
+	margin: 0.5rem;
+	border: 0.5rem;
 }
 
 p#email {
