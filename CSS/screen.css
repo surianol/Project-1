@@ -256,6 +256,15 @@ p {
     padding: 0 1em;
 }
 
+fieldset#form {
+	border: 2px solid green;
+	border-radius: 2em;
+	width: 12em;
+	margin: auto;
+    font-size: 1em;
+    line-height: 1.484;
+}
+
 @media only screen and (max-width: 400px) {
 	html {
 		width: auto;
