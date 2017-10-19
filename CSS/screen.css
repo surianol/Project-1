@@ -226,6 +226,36 @@ html {
 	background-size: 100% 100%;
 }
 
+body {
+    font-size: 100%;
+}
+
+h1 { font-size: 64px }
+h2 { font-size: 47.5px }
+h3 { font-size: 32px }
+h4 { font-size: 23.75px }
+ 
+p { font-size: 16px }
+ 
+small { font-size: 8px }
+
+p {
+	margin: 0.5rem;
+	text-align: left;
+    font-size: 1em;
+    line-height: 1.484;
+    margin: 0 0 1em 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+ 
+.column {
+    float: left;
+    padding: 0 1em;
+}
+
 @media only screen and (max-width: 400px) {
 	html {
 		width: auto;
@@ -236,7 +266,7 @@ html {
 
 @media only screen and (min-width: 40em) {
 	html {
-		font-size: 1.424em;
+		font-size: 1.30em;
 		line-height: 1;
 	}
 }
@@ -268,13 +298,24 @@ legend {
 	font-size: 1.5rem;
 }
 
-p {
-	margin: 1rem;
+label {
+	text-align: left;
+}
+
+input, select, textarea {
+	margin: 0.25rem;
+}
+
+select {
+	margin-top: 0;
+	margin-bottom: 0.3rem;
+	width: 12rem;
 }
 
 footer {
 	margin: 0.5rem;
 	border: 0.5rem;
+	text-align: center;
 }
 
 p#email {
